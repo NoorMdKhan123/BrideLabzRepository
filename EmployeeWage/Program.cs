@@ -13,9 +13,11 @@ namespace EmployeeWage
             ///
 
             int employee = 1;
+            int employeeWage = 0;
             if (employee == 1)
             {
-                Console.WriteLine("Employee is Present");
+                employeeWage = 200 * 12;
+                Console.WriteLine("Employee wage of 12 hours is" + employeeWage);
             }
             else
             {
